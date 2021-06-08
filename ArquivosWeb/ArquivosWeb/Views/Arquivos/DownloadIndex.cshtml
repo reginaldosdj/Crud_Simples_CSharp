@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ArquivosWeb.Models.FileModel>
+@{
+    ViewData["Title"] = "DownloadFile";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<h1>Arquivos</h1>
+<table class="table table-responsive table-bordered">
+    <tr>
+        <th class="col-lg-12">Nome do arquivo</th>
+        <th class="col-lg-2">Download</th>
+        <th class="col-lg-2">Deletar</th>
+    </tr>
+    @foreach (FileModel file in Model)
+    {
+        <tr>
+            <td class="col-lg-12">@file.Name</td>
+            <td class="col-lg-2"><a href="/Arquivos/DownloadFile?filename=@file.Name">Download</a></td>
+            <td class="col-lg-2"><a href="@Url.Action("Delete","Arquivos", new { filepath = file.Name})">Deletar</a></td>
+        </tr>
+    }
+</table>
+<span>@TempData["msg"]</span>
+
+<form method="POST" enctype="multipart/form-data" asp-controller="Arquivos" asp-action="FileUpload">
+    <div class="form-group">
+        <div class="col-md-10">
+            <strong>Upload de arquivos</strong>
+            <input type="file" name="file" id="file" />
+        </div>
+    </div>
+    <div class="form-group">
+        <input style=" border-radius: 5px; width: 100px; border: none; color: white; height: 35px; font-size: 1.1rem; background: #6495ED;" type="submit" value="Enviar" />
+    </div>
+    <div class="form-group">
+        <span>@TempData["msgUpload"]</span>
+        <span>@TempData["msgUploadErro"]</span>
+    </div>
+</form>

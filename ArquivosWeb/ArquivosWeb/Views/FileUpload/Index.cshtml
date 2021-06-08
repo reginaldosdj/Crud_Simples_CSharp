@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2> arquivos básicos</h2>
+@using (Html.BeginForm("suco", "Home", FormMethod.Post,
+                                               new { enctype = "multipart/form-data" }))
+
+{
+    <label for="file">Upload imagem:</label>
+    <input type="file" name="file" id="file" />
+    <br />
+    <input type="submit" value="Upload Imagem" />
+    <br />
+    @ViewBag.Message
+    <br />
+}
