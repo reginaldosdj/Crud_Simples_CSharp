@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bbrhmaqC0RxEPRADpoLnBYWR71n6RUtJeeJfsp4xbvqXZjMtFy6VAyIlGzH1OGU5U53jHJ38JAj5GgrZNUB34Q==",
+  "dgSpecHash": "FBjQEZTod+OnV0PaS34nG6/USVARSv7jJqZtSrnalnvTZV2wlhQTzaNz70Lo9d7D9jnPAbyp8ALVGHhAiwJxrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Branco\\Desktop\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
+  "projectFilePath": "C:\\Users\\Branco\\Desktop\\Projetos_CSharp-master\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Branco\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Branco\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

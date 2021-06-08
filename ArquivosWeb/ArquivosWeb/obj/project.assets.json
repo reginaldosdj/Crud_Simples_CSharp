@@ -6013,11 +6013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Branco\\Desktop\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Branco\\Desktop\\Projetos_CSharp-master\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
       "projectName": "ArquivosWeb",
-      "projectPath": "C:\\Users\\Branco\\Desktop\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
+      "projectPath": "C:\\Users\\Branco\\Desktop\\Projetos_CSharp-master\\ArquivosWeb\\ArquivosWeb\\ArquivosWeb.csproj",
       "packagesPath": "C:\\Users\\Branco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Branco\\Desktop\\ArquivosWeb\\ArquivosWeb\\obj\\",
+      "outputPath": "C:\\Users\\Branco\\Desktop\\Projetos_CSharp-master\\ArquivosWeb\\ArquivosWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
